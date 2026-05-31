@@ -1,180 +1,144 @@
-# \#### 🏭 Système Intelligent de Supervision Énergétique Industrielle
+🏭 Système Intelligent de Supervision Énergétique Industrielle
 
-# 
 
-# > Projet Personnel Professionnel (PPP) — Génie Informatique / Systèmes Embarqués
 
-# > Année universitaire 2024–2025
+Projet Personnel Professionnel (PPP) 
 
-# 
+Année universitaire 2025–2026
 
-# \#### 📋 Description
 
-# 
 
-# Système de supervision énergétique industrielle en temps réel basé sur :
+📋 Description
 
-# \- \*\*Arduino\*\* — Acquisition des grandeurs électriques (courant, tension, puissance)
+Système de supervision énergétique industrielle en temps réel basé sur :
 
-# \- \*\*Proteus\*\* — Simulation du circuit électrique
 
-# \- \*\*MQTT\*\* — Communication publish/subscribe entre les modules
 
-# \- \*\*Python\*\* — Analyse intelligente et détection d'anomalies (Isolation Forest)
+Arduino — Acquisition des grandeurs électriques (courant, tension, puissance)
 
-# \- \*\*Streamlit\*\* — Dashboard de supervision en temps réel
+Proteus — Simulation du circuit électrique
 
-# 
+MQTT — Communication publish/subscribe entre les modules
 
-# \#### 🎯 Fonctionnalités
+Python — Analyse intelligente et détection d'anomalies (Isolation Forest)
 
-# 
+Streamlit — Dashboard de supervision en temps réel
 
-# \- ✅ Mesure en temps réel : courant (A), tension (V), puissance (W), énergie (kWh)
 
-# \- ✅ Détection automatique des anomalies (surcharge, surchauffe, panne)
 
-# \- ✅ Intelligence artificielle : Isolation Forest + règles expertes
+🎯 Fonctionnalités
 
-# \- ✅ Dashboard interactif avec jauges SVG et graphiques Plotly
 
-# \- ✅ Recommandations opérationnelles automatiques
 
-# \- ✅ Stockage local SQLite + publication MQTT
+✅ Mesure en temps réel : courant (A), tension (V), puissance (W), énergie (kWh)
 
-# 
+✅ Détection automatique des anomalies (surcharge, surchauffe, panne)
 
-# \#### 🏗️ Architecture
+✅ Intelligence artificielle : Isolation Forest + règles expertes
 
-# 
+✅ Dashboard interactif avec jauges SVG et graphiques Plotly
 
-# Capteurs → Arduino → MQTT Broker → Python IA → Streamlit Dashboard
+✅ Recommandations opérationnelles automatiques
 
-# 
+✅ Stockage local SQLite + publication MQTT
 
-# \#### 📁 Structure du projet
 
-# 
 
-# arduino/          # Code embarqué Arduino (.ino)
+🏗️ Architecture
 
-# proteus/          # Simulation électrique Proteus
+Capteurs → Arduino → MQTT Broker → Python IA → Streamlit Dashboard
 
-# python/           # Modules d'analyse IA
+📁 Structure du projet
 
-# &#x20; ├── main.py
+arduino/          # Code embarqué Arduino (.ino)
 
-# &#x20; ├── ai\_engine.py
+proteus/          # Simulation électrique Proteus
 
-# &#x20; ├── data\_processor.py
+python/           # Modules d'analyse IA
 
-# &#x20; ├── decision\_engine.py
+├── main.py
 
-# &#x20; ├── database.py
+├── ai\_engine.py
 
-# &#x20; ├── mqtt\_receiver.py
+├── data\_processor.py
 
-# &#x20; ├── serial\_bridge.py
+├── decision\_engine.py
 
-# &#x20; └── config.py
+├── database.py
 
-# dashboard/        # Dashboard Streamlit
+├── mqtt\_receiver.py
 
-# &#x20; └── app.py
+├── serial\_bridge.py
 
-# 
+└── config.py
 
-# \#### ⚙️ Installation
+dashboard/        # Dashboard Streamlit
 
-# 
+└── app.py
 
-# \#### Prérequis
+⚙️ Installation
 
-# \- Python 3.10+
+Prérequis:
 
-# \- Arduino IDE
+Python 3.10+
 
-# \- Proteus 8
+Arduino IDE
 
-# \- Eclipse Mosquitto (broker MQTT)
+Proteus 8
 
-# 
+Eclipse Mosquitto (broker MQTT)
 
-# \#### Installation des dépendances Python
 
-# 
 
-# pip install -r python/requirements.txt
+Installation des dépendances Python:
 
-# 
+bash pip install -r python/requirements.txt
 
-# \#### Lancer le broker MQTT
+Lancer le broker MQTT:
 
-# 
+bash mosquitto -v
 
-# mosquitto -v
+Lancer l'analyse Python:
 
-# 
+bash cd python
 
-# \#### Lancer l'analyse Python
+python main.py
 
-# 
+Lancer le dashboard:
 
-# cd python
+bash cd dashboard
 
-# python main.py
+streamlit run app.py
 
-# 
 
-# \#### Lancer le dashboard
 
-# 
+👥 Équipe
 
-# cd dashboard
+Aydi Nour Islem: Simulation Proteus
 
-# streamlit run app.py
+Ben Zbir Amal: Programmation Arduino 
 
-# 
+Masmoudi Mariem: Analyse IA / Python
 
-# \#### 👥 Équipe
+Ben Alaya Asma: Dashboard Streamlit
 
-# 
+📊 Résultats
 
-# | Membre | Rôle |
+Scénario:
 
-# |--------|------|
+Démarrage normal✅
 
-# | Aydi Nour Islem | Simulation Proteus |
+Surcharge✅ 
 
-# | Ben Zbir Amal | Programmation Arduino |
+Surchauffe✅ 
 
-# | Masmoudi Mariem | Analyse IA / Python |
+Multi-machines✅ 
 
-# | Ben Alaya Asma | Dashboard Streamlit |
 
-# 
 
-# \#### 📊 Résultats
+Taux de détection règles expertes : 100%
 
-# 
+Taux de détection Isolation Forest : 94%
 
-# | Scénario | Statut |
-
-# |----------|--------|
-
-# | Démarrage normal | ✅ Conforme |
-
-# | Surcharge | ✅ Conforme |
-
-# | Surchauffe | ✅ Conforme |
-
-# | Multi-machines | ✅ Conforme |
-
-# 
-
-# \- Taux de détection règles expertes : 100%
-
-# \- Taux de détection Isolation Forest : 94%
-
-# \- Délai bout en bout : \~1,2 secondes
+Délai bout en bout : \~1,2 secondes
 
