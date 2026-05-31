@@ -1,4 +1,4 @@
-# \# 🏭 Système Intelligent de Supervision Énergétique Industrielle
+# \### 🏭 Système Intelligent de Supervision Énergétique Industrielle
 
 # 
 
@@ -8,7 +8,7 @@
 
 # 
 
-# \## 📋 Description
+# \### 📋 Description
 
 # 
 
@@ -26,7 +26,7 @@
 
 # 
 
-# \## 🎯 Fonctionnalités
+# \### 🎯 Fonctionnalités
 
 # 
 
@@ -44,7 +44,7 @@
 
 # 
 
-# \## 🏗️ Architecture
+# \### 🏗️ Architecture
 
 # 
 
@@ -52,7 +52,7 @@
 
 # 
 
-# \## 📁 Structure du projet
+# \### 📁 Structure du projet
 
 # 
 
@@ -84,11 +84,11 @@
 
 # 
 
-# \## ⚙️ Installation
+# \### ⚙️ Installation
 
 # 
 
-# \### Prérequis
+# \#### Prérequis
 
 # \- Python 3.10+
 
@@ -100,7 +100,7 @@
 
 # 
 
-# \### Installation des dépendances Python
+# \#### Installation des dépendances Python
 
 # 
 
@@ -108,7 +108,7 @@
 
 # 
 
-# \### Lancer le broker MQTT
+# \#### Lancer le broker MQTT
 
 # 
 
@@ -116,7 +116,7 @@
 
 # 
 
-# \### Lancer l'analyse Python
+# \#### Lancer l'analyse Python
 
 # 
 
@@ -126,7 +126,7 @@
 
 # 
 
-# \### Lancer le dashboard
+# \#### Lancer le dashboard
 
 # 
 
@@ -136,7 +136,7 @@
 
 # 
 
-# \## 👥 Équipe
+# \### 👥 Équipe
 
 # 
 
@@ -144,17 +144,17 @@
 
 # |--------|------|
 
-# | Étudiant 1 | Simulation Proteus |
+# | Aydi Nour Islem | Simulation Proteus |
 
-# | Étudiant 2 | Programmation Arduino |
+# | Ben Zbir Amal | Programmation Arduino |
 
-# | Étudiant 3 | Analyse IA / Python |
+# | Masmoudi Mariem | Analyse IA / Python |
 
-# | Étudiant 4 | Dashboard Streamlit |
+# | Ben Alaya Asma | Dashboard Streamlit |
 
 # 
 
-# \## 📊 Résultats
+# \### 📊 Résultats
 
 # 
 
@@ -167,8 +167,6 @@
 # | Surcharge | ✅ Conforme |
 
 # | Surchauffe | ✅ Conforme |
-
-# | Panne moteur | ✅ Conforme |
 
 # | Multi-machines | ✅ Conforme |
 
