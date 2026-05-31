@@ -1,4 +1,4 @@
-# \### 🏭 Système Intelligent de Supervision Énergétique Industrielle
+# \#### 🏭 Système Intelligent de Supervision Énergétique Industrielle
 
 # 
 
@@ -8,7 +8,7 @@
 
 # 
 
-# \### 📋 Description
+# \#### 📋 Description
 
 # 
 
@@ -26,7 +26,7 @@
 
 # 
 
-# \### 🎯 Fonctionnalités
+# \#### 🎯 Fonctionnalités
 
 # 
 
@@ -44,7 +44,7 @@
 
 # 
 
-# \### 🏗️ Architecture
+# \#### 🏗️ Architecture
 
 # 
 
@@ -52,7 +52,7 @@
 
 # 
 
-# \### 📁 Structure du projet
+# \#### 📁 Structure du projet
 
 # 
 
@@ -84,7 +84,7 @@
 
 # 
 
-# \### ⚙️ Installation
+# \#### ⚙️ Installation
 
 # 
 
@@ -136,7 +136,7 @@
 
 # 
 
-# \### 👥 Équipe
+# \#### 👥 Équipe
 
 # 
 
@@ -154,7 +154,7 @@
 
 # 
 
-# \### 📊 Résultats
+# \#### 📊 Résultats
 
 # 
 
