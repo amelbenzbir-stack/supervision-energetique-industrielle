@@ -110,18 +110,6 @@ bash cd dashboard
 
 streamlit run app.py
 
-
-
-👥 Équipe
-
-Aydi Nour Islem: Simulation Proteus
-
-Ben Zbir Amal: Programmation Arduino 
-
-Masmoudi Mariem: Analyse IA / Python
-
-Ben Alaya Asma: Dashboard Streamlit
-
 📊 Résultats
 
 Scénario:
